@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+ root "grades#index"
+  resources :grades
   resources :users
   post 'user_token' => 'user_token#create'
   resources :apartment_lists

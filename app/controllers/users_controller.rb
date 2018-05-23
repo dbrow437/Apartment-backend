@@ -1,9 +1,13 @@
 class UsersController < ApplicationController
   before_action :authenticate_user
 
+  # def show
+  #   user = User.find params[:id]
+  #   render json: user
+  # end
+
   def show
-    user = User.find params[:id]
-    render json: user
+    @user = User.find params[:id]
   end
 
   def create
