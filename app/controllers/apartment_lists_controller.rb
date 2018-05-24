@@ -3,7 +3,7 @@ class ApartmentListsController < ApplicationController
 
   def index
     @apartmentList = ApartmentList.all
-    render json: apartmentList
+    
   end
 
    def create
