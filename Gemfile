@@ -16,7 +16,10 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
-gem 'paperclip' #added to use pictures
+# gem 'paperclip' #added to use pictures
+
+# gem 'paperclip', '~> 5.1.0'
+# gem 'aws-sdk',   '~> 2.6'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
